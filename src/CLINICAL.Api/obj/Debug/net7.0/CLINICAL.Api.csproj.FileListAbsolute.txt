@@ -14,10 +14,14 @@ D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\De
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\MediatR.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\MediatR.Contracts.dll
-D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -40,8 +44,8 @@ D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\De
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\System.Security.Permissions.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\unix\lib\net7.0\Microsoft.Data.SqlClient.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Data.SqlClient.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll

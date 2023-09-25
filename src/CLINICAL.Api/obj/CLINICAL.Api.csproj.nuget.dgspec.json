@@ -266,10 +266,6 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.1.1, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.0.0, )"
             }
           },
           "imports": [
@@ -402,15 +398,15 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.1.1, )"
+              "version": "[5.2.0-preview3.23201.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0-rc.1.23419.4, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0-rc.1.23419.4, )"
             }
           },
           "imports": [

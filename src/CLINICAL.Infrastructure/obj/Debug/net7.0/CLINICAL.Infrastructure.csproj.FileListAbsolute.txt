@@ -1,0 +1,17 @@
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Infrastructure.deps.json
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Infrastructure.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Infrastructure.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Application.Interface.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Domain.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Application.Interface.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\bin\Debug\net7.0\CLINICAL.Domain.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.csproj.AssemblyReference.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.AssemblyInfoInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.AssemblyInfo.cs
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.csproj.CopyComplete
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\refint\CLINICAL.Infrastructure.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\CLINICAL.Infrastructure.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Infrastructure\obj\Debug\net7.0\ref\CLINICAL.Infrastructure.dll

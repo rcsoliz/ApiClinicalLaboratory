@@ -1,0 +1,17 @@
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Persistence.deps.json
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Persistence.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Persistence.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Application.Interface.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Domain.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Application.Interface.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\bin\Debug\net7.0\CLINICAL.Domain.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.csproj.AssemblyReference.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.AssemblyInfoInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.AssemblyInfo.cs
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.csproj.CoreCompileInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.csproj.CopyComplete
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\refint\CLINICAL.Persistence.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\CLINICAL.Persistence.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Persistence\obj\Debug\net7.0\ref\CLINICAL.Persistence.dll

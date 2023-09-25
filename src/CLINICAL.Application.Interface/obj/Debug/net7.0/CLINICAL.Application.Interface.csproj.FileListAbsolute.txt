@@ -1,0 +1,15 @@
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\bin\Debug\net7.0\CLINICAL.Application.Interface.deps.json
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\bin\Debug\net7.0\CLINICAL.Application.Interface.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\bin\Debug\net7.0\CLINICAL.Application.Interface.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\bin\Debug\net7.0\CLINICAL.Domain.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\bin\Debug\net7.0\CLINICAL.Domain.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.csproj.AssemblyReference.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.AssemblyInfoInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.AssemblyInfo.cs
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.csproj.CoreCompileInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.csproj.CopyComplete
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\refint\CLINICAL.Application.Interface.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\CLINICAL.Application.Interface.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Interface\obj\Debug\net7.0\ref\CLINICAL.Application.Interface.dll

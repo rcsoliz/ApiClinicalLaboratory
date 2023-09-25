@@ -1,0 +1,12 @@
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\bin\Debug\net7.0\CLINICAL.Application.Dtos.deps.json
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\bin\Debug\net7.0\CLINICAL.Application.Dtos.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\bin\Debug\net7.0\CLINICAL.Application.Dtos.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.csproj.AssemblyReference.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.AssemblyInfoInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.AssemblyInfo.cs
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.csproj.CoreCompileInputs.cache
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\refint\CLINICAL.Application.Dtos.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\CLINICAL.Application.Dtos.pdb
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Application.Dtos\obj\Debug\net7.0\ref\CLINICAL.Application.Dtos.dll

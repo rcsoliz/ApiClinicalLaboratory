@@ -4,6 +4,122 @@
     "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.UseCase\\CLINICAL.Application.UseCase.csproj": {}
   },
   "projects": {
+    "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\CLINICAL.Application.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\CLINICAL.Application.Dtos.csproj",
+        "projectName": "CLINICAL.Application.Dtos",
+        "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\CLINICAL.Application.Dtos.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj",
+        "projectName": "CLINICAL.Application.Interface",
+        "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.UseCase\\CLINICAL.Application.UseCase.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +128,96 @@
         "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.UseCase\\CLINICAL.Application.UseCase.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
         "outputPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.UseCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\CLINICAL.Application.Dtos.csproj": {
+                "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Dtos\\CLINICAL.Application.Dtos.csproj"
+              },
+              "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj": {
+                "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj"
+              },
+              "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\CLINICAL.Domain.csproj": {
+                "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\CLINICAL.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.7.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\CLINICAL.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\CLINICAL.Domain.csproj",
+        "projectName": "CLINICAL.Domain",
+        "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\CLINICAL.Domain.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

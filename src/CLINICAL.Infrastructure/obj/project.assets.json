@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CLINICAL.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CLINICAL.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLINICAL.Application.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CLINICAL.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../CLINICAL.Application.Interface/CLINICAL.Application.Interface.csproj",
+      "msbuildProject": "../CLINICAL.Application.Interface/CLINICAL.Application.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CLINICAL.Application.Interface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pc\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj": {
+              "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cskVhz+Oy3weWNPGtzWM6wtou1MP9kyguOKCLCQtmQ9bIINQ0EKSTbvhVYwa8ppJ8DWShAz6bUL7RjvmPVB3wA==",
+  "dgSpecHash": "vcQ/V6opLLabUmeIZgZwW0LDLGIo5Kui8Rz1kdQFw2ItTRyOAhJZxPF7LTI2awCg5LgJ/57TfO+FIZTYi/d1Kg==",
   "success": true,
   "projectFilePath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Persistence\\CLINICAL.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512"
+  ],
   "logs": []
 }

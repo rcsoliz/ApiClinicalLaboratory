@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Dapper/2.0.151": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CLINICAL.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CLINICAL.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLINICAL.Application.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dapper/2.0.151": {
+      "sha512": "mMcZgx1lim0/i1Ozu+lgnBM4GwNIHpCuxV6BV2ovsEfZAXRAq4jb6RIhxGDcVjtmXMLPpdp85jHPdDjBMMwejw==",
+      "type": "package",
+      "path": "dapper/2.0.151",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.151.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "CLINICAL.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../CLINICAL.Application.Interface/CLINICAL.Application.Interface.csproj",
+      "msbuildProject": "../CLINICAL.Application.Interface/CLINICAL.Application.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CLINICAL.Application.Interface >= 1.0.0",
+      "Dapper >= 2.0.151"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pc\\.nuget\\packages\\": {},
@@ -37,7 +88,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj": {
+              "projectPath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.Interface\\CLINICAL.Application.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -49,6 +104,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.151, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

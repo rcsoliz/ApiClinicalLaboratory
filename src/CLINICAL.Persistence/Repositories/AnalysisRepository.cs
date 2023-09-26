@@ -1,6 +1,6 @@
-﻿using CLINICAL.Domain.Entities;
+﻿using CLINICAL.Application.Interface;
+using CLINICAL.Domain.Entities;
 using CLINICAL.Persistence.Context;
-using CLINICAL.Application.Interface;
 using Dapper;
 using System.Data;
 
@@ -38,6 +38,24 @@ namespace CLINICAL.Persistence.Repositories
             
             return analysis;
 
+
+        }
+
+        public async Task<bool> AnalysisRegister(Analysis analysis)
+        {
+            using var connetion = _context.CreateConnection;
+            var query = "uspAnalysisRegister";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("Name", analysis.Name);
+            parameters.Add("State", 1);
+            parameters.Add("AuditCreateDate", DateTime.Now);
+
+            var recordsAffected = await connetion
+                .ExecuteAsync(query, param: parameters,
+                commandType: CommandType.StoredProcedure);
+
+            return recordsAffected >0;
 
         }
     }

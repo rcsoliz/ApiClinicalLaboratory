@@ -12,5 +12,7 @@ namespace CLINICAL.Application.Interface
         Task<IEnumerable<Analysis>> ListAnalysis();
 
         Task<Analysis> AnalysisById(int analysisId);
+
+        Task<bool> AnalysisRegister(Analysis analysis);
     }
 }

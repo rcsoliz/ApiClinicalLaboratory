@@ -1,4 +1,5 @@
 ﻿using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
+using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery;
@@ -48,6 +49,15 @@ namespace CLINICAL.Api.Controllers
             return Ok(response);
         }
 
+        [HttpDelete("Remove/{analysisId:int}")]
+        public async Task<IActionResult> RemoveAnalysis(int analysisId)
+        {
+            var response = await _mediator.Send(new DeleteAnalysisCommand()
+            {
+                AnalysisId = analysisId 
+            });
+            return Ok(response);
+        }
 
     }
 }

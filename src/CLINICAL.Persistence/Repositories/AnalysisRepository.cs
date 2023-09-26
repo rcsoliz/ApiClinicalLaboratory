@@ -43,7 +43,7 @@ namespace CLINICAL.Persistence.Repositories
 
         public async Task<bool> AnalysisRegister(Analysis analysis)
         {
-            using var connetion = _context.CreateConnection;
+            using var connection = _context.CreateConnection;
             var query = "uspAnalysisRegister";
 
             var parameters = new DynamicParameters();
@@ -51,8 +51,25 @@ namespace CLINICAL.Persistence.Repositories
             parameters.Add("State", 1);
             parameters.Add("AuditCreateDate", DateTime.Now);
 
-            var recordsAffected = await connetion
+            var recordsAffected = await connection
                 .ExecuteAsync(query, param: parameters,
+                commandType: CommandType.StoredProcedure);
+
+            return recordsAffected >0;
+
+        }
+
+        public async Task<bool> AnalysisEdit(Analysis analysis)
+        {
+            using var connection = _context.CreateConnection;
+            var query = "uspAnalysisEdit";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("AnalysisId", analysis.AnalysisId);
+            parameters.Add("Name", analysis.Name);
+
+            var recordsAffected = await connection.
+                ExecuteAsync(query, param: parameters,
                 commandType: CommandType.StoredProcedure);
 
             return recordsAffected >0;

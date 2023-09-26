@@ -14,5 +14,7 @@ namespace CLINICAL.Application.Interface
         Task<Analysis> AnalysisById(int analysisId);
 
         Task<bool> AnalysisRegister(Analysis analysis);
+
+        Task<bool> AnalysisEdit(Analysis analysisId);
     }
 }

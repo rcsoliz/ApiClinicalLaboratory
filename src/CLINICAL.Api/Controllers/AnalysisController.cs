@@ -1,4 +1,5 @@
-﻿using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
+﻿using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCommand;
+using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
 using CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery;
@@ -59,5 +60,12 @@ namespace CLINICAL.Api.Controllers
             return Ok(response);
         }
 
+        [HttpPut("ChangeState")]
+        public async Task<IActionResult> ChangeState([FromBody] ChangeStateAnalysisCommand command)
+        {
+            var response = await _mediator.Send(command);
+            
+            return Ok(response);
+        }
     }
 }

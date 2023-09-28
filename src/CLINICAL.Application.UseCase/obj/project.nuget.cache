@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F7bCZqbInU7DjP4TzLy3khkXto6U1Rs4/qnQsEdlp+gYY1q3xrDgfEACBLpT4CXgFdWwXGC9GGVIi1PJehCGeQ==",
+  "dgSpecHash": "93dhcVfSjtZjpvohr/kmc3PtpkLxnsenumizCEXzixCEXpQSxFWlVx/L4x1Z7Y2F/Lz9zsruF27zipfRZXaeOQ==",
   "success": true,
   "projectFilePath": "D:\\CNET\\BackEnd\\ClinicalLaboratory\\SolClinicalLaboratory\\src\\CLINICAL.Application.UseCase\\CLINICAL.Application.UseCase.csproj",
   "expectedPackageFiles": [

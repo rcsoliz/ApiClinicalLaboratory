@@ -3,6 +3,7 @@ using CLINICAL.Application.Dtos.Analysis.Response;
 using CLINICAL.Application.Interface.Interfaces;
 using CLINICAL.Application.UseCase.Commons.Basess;
 using MediatR;
+using CLINICAL.Utilities.Constants;
 
 namespace CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery;
 
@@ -22,7 +23,7 @@ public class GetAllAnalyisHandler : IRequestHandler<GetAllAnalyisQuery, BaseResp
 
         try
         {
-            var analysis = await _unitOfWork.Analysis.GetAllAsync("uspAnalyisList");
+            var analysis = await _unitOfWork.Analysis.GetAllAsync(SP.uspAnalyisList);
 
             if(analysis is not null)
             {

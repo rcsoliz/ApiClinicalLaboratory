@@ -87,3 +87,5 @@ D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\obj\De
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\obj\Debug\net7.0\CLINICAL.Api.pdb
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\obj\Debug\net7.0\CLINICAL.Api.genruntimeconfig.cache
 D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\obj\Debug\net7.0\ref\CLINICAL.Api.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\CLINICAL.Utilities.dll
+D:\CNET\BackEnd\ClinicalLaboratory\SolClinicalLaboratory\src\CLINICAL.Api\bin\Debug\net7.0\CLINICAL.Utilities.pdb

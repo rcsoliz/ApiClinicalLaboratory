@@ -6,42 +6,43 @@ using CLINICAL.Utilities.HelperExtensions;
 using MediatR;
 using Entity = CLINICAL.Domain.Entities;
 
-
-namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand
+namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCommand
 {
-    public class UpdateAnalysisHandler : IRequestHandler<UpdateAnalysisCommand, BaseResponse<bool>>
+    public class ChangeStateAnalysisHandler : IRequestHandler<ChangeStateAnalysisCommand, BaseResponse<bool>>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        public UpdateAnalysisHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        public ChangeStateAnalysisHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-        public async Task<BaseResponse<bool>> Handle(UpdateAnalysisCommand request, CancellationToken cancellationToken)
+
+        public async Task<BaseResponse<bool>> Handle(ChangeStateAnalysisCommand request, CancellationToken cancellationToken)
         {
-            var response = new BaseResponse<bool>();
-            
+            var response = new BaseResponse<bool>(); ;
+
             try
             {
                 var analysis = _mapper.Map<Entity.Analysis>(request);
                 var parameters = analysis.GetPropertiesWithValues();
 
-                response.Data = await _unitOfWork.Analysis
-                    .ExecAsync(SP.uspAnalysisEdit, 
-                    parameters );
+                response.Data = await _unitOfWork.Analysis.ExecAsync(
+                    SP.uspAnalysisChangeState, parameters);
 
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Update is Success";
+                    response.Message = "Update this State.";
                 }
+
             }
             catch (Exception ex)
             {
-                response.Message = ex.Message;
+                response.IsSuccess = false;
+                response.Message = ex.Message;  
+                
             }
-
             return response;
         }
     }

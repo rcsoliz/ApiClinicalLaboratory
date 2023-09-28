@@ -2,6 +2,7 @@
 using CLINICAL.Application.Dtos.Analysis.Response;
 using CLINICAL.Application.Interface.Interfaces;
 using CLINICAL.Application.UseCase.Commons.Basess;
+using CLINICAL.Utilities.Constants;
 using MediatR;
 
 namespace CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery;
@@ -22,10 +23,8 @@ public class AnalysisByIdHandler : IRequestHandler<GetAnalysisByIdQuery, BaseRes
 
         try
         {
-            var analysis = await _unitOfWork.Analysis.GetByIdAsync("uspAnalysisById",
-                new { request.AnalysisId });
-                
-            //.AnalysisById(request.AnalysisId);
+            var analysis = await _unitOfWork.Analysis.GetByIdAsync(SP.uspAnalysisById,
+                request);
 
             if(analysis == null)
             {

@@ -1,6 +1,7 @@
 ﻿using CLINICAL.Application.Interface.Interfaces;
 using CLINICAL.Application.UseCase.Commons.Basess;
 using CLINICAL.Domain.Entities;
+using CLINICAL.Utilities.Constants;
 using MediatR;
 
 namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
@@ -19,8 +20,8 @@ public class DeleteAnalysisHandler : IRequestHandler<DeleteAnalysisCommand, Base
 
         try
         {
-            var parameters = new { request.AnalysisId };
-            response.Data = await _unitOfWork.Analysis.ExecAsync("uspAnalysisRemove", parameters);
+            response.Data = await _unitOfWork.Analysis
+                .ExecAsync(SP.uspAnalysisRemove, request);
 
             if (response.Data)
             {

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using CLINICAL.Application.Dtos.Analysis.Response;
-using CLINICAL.Application.Interface;
+using CLINICAL.Application.Interface.Interfaces;
 using CLINICAL.Application.UseCase.Commons.Basess;
 using MediatR;
 
@@ -8,12 +8,12 @@ namespace CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery;
 
 public class AnalysisByIdHandler : IRequestHandler<GetAnalysisByIdQuery, BaseResponse<GetAnalysisByIdReponseDto>>
 {
-    private readonly IAnalysisRepository _analysisRepository;
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
-    public AnalysisByIdHandler(IAnalysisRepository analysisRepository, IMapper mapper)
+    public AnalysisByIdHandler(IUnitOfWork unitOfWork, IMapper mapper)
     {
-        _analysisRepository = analysisRepository; _mapper = mapper;
+        _unitOfWork = unitOfWork; _mapper = mapper;
     }
 
     public async Task<BaseResponse<GetAnalysisByIdReponseDto>> Handle(GetAnalysisByIdQuery request, CancellationToken cancellationToken)
@@ -22,7 +22,10 @@ public class AnalysisByIdHandler : IRequestHandler<GetAnalysisByIdQuery, BaseRes
 
         try
         {
-            var analysis = await _analysisRepository.AnalysisById(request.AnalysisId);
+            var analysis = await _unitOfWork.Analysis.GetByIdAsync("uspAnalysisById",
+                new { request.AnalysisId });
+                
+            //.AnalysisById(request.AnalysisId);
 
             if(analysis == null)
             {

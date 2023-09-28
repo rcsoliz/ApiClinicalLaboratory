@@ -7,9 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery
+namespace CLINICAL.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery;
+
+public class GetAllAnalyisQuery: IRequest<BaseResponse<IEnumerable<GetAllAnalysisReponseDto>>>
 {
-    public class GetAllAnalyisQuery: IRequest<BaseResponse<IEnumerable<GetAllAnalysisReponseDto>>>
-    {
-    }
 }

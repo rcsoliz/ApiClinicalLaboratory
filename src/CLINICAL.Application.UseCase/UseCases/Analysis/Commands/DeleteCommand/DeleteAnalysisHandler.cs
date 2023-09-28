@@ -2,37 +2,36 @@
 using CLINICAL.Application.UseCase.Commons.Basess;
 using MediatR;
 
-namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand
+namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
+
+public class DeleteAnalysisHandler : IRequestHandler<DeleteAnalysisCommand, BaseResponse<bool>>
 {
-    public class DeleteAnalysisHandler : IRequestHandler<DeleteAnalysisCommand, BaseResponse<bool>>
+    private readonly IAnalysisRepository _analysisRepository;
+
+    public DeleteAnalysisHandler(IAnalysisRepository analysisRepository)
     {
-        private readonly IAnalysisRepository _analysisRepository;
+        _analysisRepository = analysisRepository;
+    }
+    public async Task<BaseResponse<bool>> Handle(DeleteAnalysisCommand request, CancellationToken cancellationToken)
+    {
+        var response = new BaseResponse<bool>();
 
-        public DeleteAnalysisHandler(IAnalysisRepository analysisRepository)
+        try
         {
-            _analysisRepository = analysisRepository;
-        }
-        public async Task<BaseResponse<bool>> Handle(DeleteAnalysisCommand request, CancellationToken cancellationToken)
-        {
-            var response = new BaseResponse<bool>();
+            response.Data = await _analysisRepository.AnalysisRemove(request.AnalysisId);
 
-            try
+            if (response.Data)
             {
-                response.Data = await _analysisRepository.AnalysisRemove(request.AnalysisId);
-
-                if (response.Data)
-                {
-                    response.IsSuccess = true;
-                    response.Message = "Delete Is Success";
-                }
-
-            }
-            catch (Exception ex)
-            {
-                response.Message = ex.Message;
+                response.IsSuccess = true;
+                response.Message = "Delete Is Success";
             }
 
-            return response;    
         }
+        catch (Exception ex)
+        {
+            response.Message = ex.Message;
+        }
+
+        return response;    
     }
 }

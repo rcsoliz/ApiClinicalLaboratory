@@ -3,6 +3,6 @@
     public class BaseError
     {   
         public string? PropertyName { get; set; }   
-        public string? ErrrorMessage { get; set;}
+        public string? ErrorMessage { get; set;}
     }
 }

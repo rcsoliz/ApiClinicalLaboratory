@@ -5,18 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CLINICAL.Application.Interface
+namespace CLINICAL.Application.Interface;
+
+public interface IAnalysisRepository
 {
-    public interface IAnalysisRepository
-    {
-        Task<IEnumerable<Analysis>> ListAnalysis();
+    Task<IEnumerable<Analysis>> ListAnalysis();
 
-        Task<Analysis> AnalysisById(int analysisId);
+    Task<Analysis> AnalysisById(int analysisId);
 
-        Task<bool> AnalysisRegister(Analysis analysis);
+    Task<bool> AnalysisRegister(Analysis analysis);
 
-        Task<bool> AnalysisEdit(Analysis analysisId);
+    Task<bool> AnalysisEdit(Analysis analysisId);
 
-        Task<bool> AnalysisRemove(int analysisId);
-    }
+    Task<bool> AnalysisRemove(int analysisId);
 }

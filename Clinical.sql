@@ -77,3 +77,47 @@ begin
 	where AnalysisId = @AnalysisId
 end
 go
+
+create table Exams
+(ExamId int Identity(1,1) NOT NULL,
+Name varchar(100),
+AnalysisId int not null,
+State int not null,
+AuditCreateDate Datetime2(7) not null
+);
+
+alter table Exams add constraint  pkExams primary key(ExamId);
+
+alter table Exams add constraint fk_Analysis_Exams 
+foreign key (AnalysisId) references Analysis (AnalysisId);
+go
+
+
+Create or alter Proc uspExamList
+as
+begin
+	select 
+		ex.ExamId,
+		ex.Name,
+		a.Name Analysis,
+		ex.AuditCreateDate,
+		case ex.State when 1 then 'ACTIVO'	
+		else 'INACTIVO' 
+		end StateExam
+	from Exams ex
+	inner join Analysis a
+	on ex.AnalysisId = a.AnalysisId
+end
+go
+
+Create or alter Proc uspExamById
+(@ExamId int)
+as
+begin
+	select 
+		ex.ExamId,
+		ex.Name,
+		ex.AnalysisId
+	from Exams ex where ex.ExamId =@ExamId
+end
+go

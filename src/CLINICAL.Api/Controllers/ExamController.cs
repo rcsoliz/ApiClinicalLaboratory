@@ -1,4 +1,5 @@
 ﻿using CLINICAL.Application.UseCase.UseCases.Exam.Query.GetAllQuery;
+using CLINICAL.Application.UseCase.UseCases.Exam.Query.GetByIdQuery;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,6 +23,18 @@ namespace CLINICAL.Api.Controllers
 
             return Ok(response);
         }
+
+        [HttpGet("{examId:int}")]
+        public async Task<IActionResult> ExamById(int examId)
+        {
+            var response = await _mediator.Send(new GetExamByIdQuery()
+            {
+                ExamId = examId
+            });
+
+            return Ok(response);
+        }
+
 
     }
 }

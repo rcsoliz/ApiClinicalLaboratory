@@ -839,10 +839,21 @@
           }
         }
       },
+      "CLINICAL.Application.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CLINICAL.Application.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CLINICAL.Application.Dtos.dll": {}
+        }
+      },
       "CLINICAL.Application.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "CLINICAL.Application.Dtos": "1.0.0",
           "CLINICAL.Domain": "1.0.0"
         },
         "compile": {
@@ -2367,6 +2378,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CLINICAL.Application.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../CLINICAL.Application.Dtos/CLINICAL.Application.Dtos.csproj",
+      "msbuildProject": "../CLINICAL.Application.Dtos/CLINICAL.Application.Dtos.csproj"
     },
     "CLINICAL.Application.Interface/1.0.0": {
       "type": "project",

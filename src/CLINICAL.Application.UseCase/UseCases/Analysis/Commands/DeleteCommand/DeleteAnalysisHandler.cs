@@ -26,7 +26,7 @@ public class DeleteAnalysisHandler : IRequestHandler<DeleteAnalysisCommand, Base
             if (response.Data)
             {
                 response.IsSuccess = true;
-                response.Message = "Delete Is Success";
+                response.Message = GlobalMessages.MESSAGE_DELETE;
             }
 
         }

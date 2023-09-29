@@ -34,14 +34,12 @@ go
 exec uspAnalysisById 3
 go
 
-create proc uspAnalysisRegister
-(@Name varchar(50),
-@State int,
-@AuditCreateDate datetime)
+create or alter proc uspAnalysisRegister
+(@Name varchar(50))
 as 
 begin
 	insert into Analysis(name, state, AuditCreateDate) 
-	values (@Name, @State, @AuditCreateDate);
+	values (@Name, 1, GETDATE());
 end
 go
 
@@ -64,4 +62,18 @@ as
 begin
 	delete from Analysis where AnalysisId = @AnalysisId;
 end
+go
 
+
+create or alter proc uspAnalysisChangeState
+(
+@AnalysisId int,
+@State int
+)
+as
+begin
+ 	update Analysis set
+		State = @State
+	where AnalysisId = @AnalysisId
+end
+go

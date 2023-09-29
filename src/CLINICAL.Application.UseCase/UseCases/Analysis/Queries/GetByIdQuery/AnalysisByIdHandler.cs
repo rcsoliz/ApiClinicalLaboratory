@@ -29,13 +29,13 @@ public class AnalysisByIdHandler : IRequestHandler<GetAnalysisByIdQuery, BaseRes
             if(analysis == null)
             {
                 response.IsSuccess = false;
-                response.Message = "Not exists data";
+                response.Message = GlobalMessages.MESSAGE_QUERY_EMPTY;
                 return response;
             }
 
             response.IsSuccess = true;
             response.Data =_mapper.Map<GetAnalysisByIdReponseDto>(analysis);
-            response.Message = "Query Success";
+            response.Message = GlobalMessages.MESSAGE_QUERY;
 
         }
         catch (Exception ex)

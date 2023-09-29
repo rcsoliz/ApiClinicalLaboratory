@@ -33,7 +33,7 @@ namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCom
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Update this State.";
+                    response.Message = GlobalMessages.MESSAGE_UPDATE_STATE;
                 }
 
             }

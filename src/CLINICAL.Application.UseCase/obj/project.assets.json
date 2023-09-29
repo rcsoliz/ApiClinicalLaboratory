@@ -182,6 +182,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "CLINICAL.Application.Dtos": "1.0.0",
           "CLINICAL.Domain": "1.0.0"
         },
         "compile": {

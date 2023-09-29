@@ -10,6 +10,9 @@ namespace CLINICAL.Persistence.Extensions
         public static IServiceCollection AddInjectionPersistence(this IServiceCollection services)
         {
             services.AddSingleton<ApplicactionDbContext> ();
+
+            services.AddScoped<IExamRepository, ExamRepository>();
+
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             

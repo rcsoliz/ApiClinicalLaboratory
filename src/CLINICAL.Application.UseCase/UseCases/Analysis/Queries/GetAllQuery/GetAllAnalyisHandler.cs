@@ -29,7 +29,7 @@ public class GetAllAnalyisHandler : IRequestHandler<GetAllAnalyisQuery, BaseResp
             {
                 response.IsSuccess = true;
                 response.Data = _mapper.Map<IEnumerable<GetAllAnalysisReponseDto>>(analysis);
-                response.Message = "Consult Success";
+                response.Message = GlobalMessages.MESSAGE_QUERY;
             }
         }
         catch (Exception ex)

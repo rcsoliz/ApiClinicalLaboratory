@@ -34,7 +34,7 @@ namespace CLINICAL.Application.UseCase.UseCases.Analysis.Commands.CreateCommand
                 if (response.Data)
                 {
                     response.IsSuccess = true;
-                    response.Message = "Register is success";
+                    response.Message = GlobalMessages.MESSAGE_SAVE;
                 }
                 
             }

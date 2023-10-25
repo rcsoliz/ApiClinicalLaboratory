@@ -1,16 +1,17 @@
 ﻿using CLINICAL.Application.Dtos.Exam.Response;
 using CLINICAL.Application.Interface.Interfaces;
+using CLINICAL.Domain.Entities;
 using CLINICAL.Persistence.Context;
 using Dapper;
 using System.Data;
 
 namespace CLINICAL.Persistence.Repositories
 {
-    public class ExamRepository : IExamRepository
+    public class ExamRepository : GenericRepository<Exam>, IExamRepository
     {
         private readonly ApplicactionDbContext _context;
 
-        public ExamRepository(ApplicactionDbContext context)
+        public ExamRepository(ApplicactionDbContext context):base(context)
         {
             _context = context;
         }

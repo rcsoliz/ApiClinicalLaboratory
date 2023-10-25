@@ -121,3 +121,41 @@ begin
 	from Exams ex where ex.ExamId =@ExamId
 end
 go
+
+
+create or alter proc uspExamRegister
+(
+@Name varchar(100),
+@AnalysisId int
+)
+as
+begin
+	insert into Exams
+	(
+		Name, 
+		AnalysisId,
+		State,
+		AuditCreateDate
+	)
+	values
+	(
+		@Name,
+		@AnalysisId,
+		1,
+		GetDate()
+	)
+end
+
+create or alter proc uspExamEdit
+(
+@ExamId int,
+@Name varchar(100),
+@AnalysisId int
+)
+as
+begin
+	update Exams set
+		Name = @Name,
+		AnalysisId = @AnalysisId
+	where ExamId = @ExamId
+end

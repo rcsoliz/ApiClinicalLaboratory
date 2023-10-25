@@ -159,3 +159,20 @@ begin
 		AnalysisId = @AnalysisId
 	where ExamId = @ExamId
 end
+
+create proc uspExamRemove(
+@ExamId int
+)
+as 
+begin
+	delete from Exams where ExamId = @ExamId
+end;
+
+create proc uspExamChangeState(
+@ExamId int,
+@State int
+)
+as 
+begin
+	update Exams set State = @State where ExamId = @ExamId
+end

@@ -3,11 +3,6 @@ using CLINICAL.Application.Interface.Interfaces;
 using CLINICAL.Application.UseCase.Commons.Basess;
 using CLINICAL.Utilities.Constants;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CLINICAL.Application.UseCase.UseCases.Exam.Query.GetAllQuery
 {

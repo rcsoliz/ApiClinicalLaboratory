@@ -176,3 +176,91 @@ as
 begin
 	update Exams set State = @State where ExamId = @ExamId
 end
+
+
+drop table if exists DocumentTypes
+
+create table DocumentTypes
+(
+	DocumentTypeId int identity(1,1) not null,
+	Document varchar(50),
+	State int
+)
+alter table DocumentTypes add constraint  pkDocumentTypes primary key(DocumentTypeId);
+go
+
+drop table if exists TypeAges
+
+create table TypeAges
+(
+	TypeAgeId int identity(1,1) not null,
+	TypeAge varchar(15),
+	State int
+)
+
+alter table TypeAges add constraint  pkTypeAges primary key(TypeAgeId);
+go
+
+drop table if exists Genders;
+
+create table Genders
+(
+	GenderId int identity(1,1) not null,
+	Gender varchar(25),
+	State int
+)
+
+alter table Genders add constraint  pkTGenders primary key(GenderId);
+go
+
+drop table if exists Patients;
+
+create table Patients
+(
+	PatientId int identity(1,1) primary key not null,
+	Names varchar(100),
+	LastName varchar(50),
+	MotherMaidenName varchar(50),
+	DocumentTypeId int,
+	DocumentNumber varchar(15),
+	Phone varchar(15),
+	TypeAgeId int,
+	Age int,
+	GenderId int,
+	State int,
+	AuditCreateDate Datetime2(7)
+)
+alter table Patients add constraint fk_DocumentTypes_Patients
+foreign key (DocumentTypeId) references DocumentTypes (DocumentTypeId);
+
+alter table Patients add constraint fk_TypeAges_Patients
+foreign key (TypeAgeId) references TypeAges (TypeAgeId);
+
+alter table Patients add constraint fk_TGenders_Patients
+foreign key (GenderId) references Genders (GenderId);
+
+go
+
+
+create or alter proc uspPatientList
+As
+begin
+	SELECT 
+		pa.PatientId,
+		pa.Names,
+		CONCAT_WS(' ', pa.LastName, pa.MotherMaidenName) Surnames,
+		dt.Document DocumentType,
+		pa.DocumentNumber,
+		pa.Phone,
+		CONCAT_WS(' ', pa.Age, ta.TypeAge) Age,
+		g.Gender,
+		CASE pa.State
+			WHEN 1 THEN 'ACTIVO'
+			ELSE 'INACTIVO'
+		END StatePatient,
+		pa.AuditCreateDate
+	FROM Patients pa
+	INNER JOIN DocumentTypes dt on dt.DocumentTypeId = pa.DocumentTypeId 
+	INNER JOIN TypeAges ta on ta.TypeAgeId = pa.TypeAgeId
+	INNER JOIN Genders g on g.GenderId = pa.GenderId
+end
